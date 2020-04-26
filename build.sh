@@ -1,7 +1,11 @@
 #!/bin/bash
 
+if [ ! -d ./bin ]; then
+	mkdir ./bin
+fi
+
 code="$PWD"
-opts=-g
+opts="-g -std=c99"
 cd bin > /dev/null
-g++ $opts $code/calc.c -o calculate.exe
+gcc $opts $code/calc.c -o calculate.exe
 cd $code > /dev/null

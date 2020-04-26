@@ -9,7 +9,9 @@ $ calculate 2*2
 2*2 = 24.000000
 ~~~
 
-## Build
-On windows, call 'build.bat' (assuming you are running a terminal that has developer tools, i.e. cl.exe)
+Supports '+', '-', '\*' ,'/', '^' operators, as well as `sin`, `cos`, `tan`, `asin`, `acos`, `atan`, `log` and `exp` functions.
 
-On linux / macos, call 'build.sh' (assuming you are running bash and have gcc)
+## Build
+On windows, run 'build.bat' (assuming you are running a terminal that has developer tools, i.e. cl.exe)  
+On linux/macos, run './build.sh' (assuming you are running bash and have gcc)
+

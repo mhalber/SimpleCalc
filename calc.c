@@ -197,7 +197,7 @@ static const char* error_str[] = {
     "[ERROR]: Missing function close parenthesis"
 };
 
-inline int
+int
 handle_error( tokenizer_t* tokenizer_local, token_t* lookahead, int error )
 {
     if (error) {
