@@ -11,4 +11,5 @@ $ calculate 2*2
 
 ## Build
 On windows, call 'build.bat' (assuming you are running a terminal that has developer tools, i.e. cl.exe)
+
 On linux / macos, call 'build.sh' (assuming you are running bash and have gcc)
