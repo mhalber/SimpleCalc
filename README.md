@@ -1,6 +1,6 @@
 ## SimpleCalc
 
-Small command line utility for evaluating simple mathematical expressions. Implements a recursive descent parser converting input, infix expression to a postfix expression, which is then evaluated to output final value.
+Small command line utility for evaluating simple mathematical expressions. Implements a recursive descent parser converting input, infix expression to a postfix expression, which is then evaluated to output result.
 
 ## Usage
 Simply invoke the binary followed by some expression you wish to evaluate
